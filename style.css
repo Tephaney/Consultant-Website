@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,200;1,6..72,300;1,6..72,400;1,6..72,500;1,6..72,600;1,6..72,700;1,6..72,800&family=Quicksand:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+:root {
+    --primary-color: #F5F2EC;
+    --secondary-color: #353232; 
+    --white: #fff;
+
+}
+
+/* Navbar */
+
+.navbar-brand img {
+    width: 150px;
+   
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+
+.navbar {
+    
+    background-color: var(--primary-color);
+    width: 100%;
+  
+}
+
+.nav-link {
+    font-family: 'Syne', sans-serif;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    transition: all .2s;
+
+}
+
+.nav-link:hover {
+    transform: rotate(-10deg);
+    box-shadow: 0 2rem 3rem #f3cfb4 ;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+/* End of Navbar */
+
+/* Welcome */
+
+.welcome {
+    background-color: #FDFCF9;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+.welcome-title {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    letter-spacing: 1.5px;
+    color: #525252;
+}
+
+.welcome-quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    padding-bottom: 3rem;
+    letter-spacing: 1px;
+    color: #A99D87;
+}
+
+.welcome-paragraph {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 22px;
+    letter-spacing: .5px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: #525252;
+
+}
+
+.welcome-icon {
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* End of Welcome */
+
+/* About Me */
+/* .overlay {
+    opacity: 0.5;
+    z-index: -1;
+} */
+
+.about-me {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 5rem; 
+    background-image: url("images/banner1.png");
+    
+
+}
+
+.about-me-header {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #A99D87;
+    margin-bottom: 3rem;
+
+}
+
+.about-me-paragraph {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: #525252;
+}
+
+.coach {
+    max-width: 350px;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    border-radius: 5rem;
+    margin-top: 2rem;
+}
+
+.img-col {
+    flex-basis: 90%;
+}
+
+.about-btn {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: #A99D87;
+    color: #F5F2EC;
+    font-weight: 600;
+}
+
